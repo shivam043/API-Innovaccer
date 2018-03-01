@@ -4,6 +4,7 @@
 =====
 ### Install all the dependency using `pip`
 ```bash
+Python 3.6
 pip install -r requirements.txt
 ```
 ### Set Env Twitter OAuth
