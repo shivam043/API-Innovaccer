@@ -7,6 +7,7 @@
 pip install -r requirements.txt
 ```
 ### Set Env Twitter OAuth
+#### Set keys in a environment variable
 #### Use export for linux and set for windows 
 
 ```bash
