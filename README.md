@@ -50,6 +50,6 @@ python innov-api --esload
 python innov-api.py
 ```
 ```bash
-Head to http://localhost/api/all/tweets/ to get all the streaming tweets and its metadata
+Head to http://localhost:5000/api/all/tweets/ to get all the streaming tweets and its metadata
 ```
 ### For API Documentation please refer API.pdf file
