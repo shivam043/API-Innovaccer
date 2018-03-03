@@ -25,11 +25,7 @@ def connect_twitter_stream():
 
     auth = twitter.OAuth(token=access_token,token_secret=access_token_secret,consumer_key=consumer_key,consumer_secret=consumer_secret)
     return twitter.TwitterStream(auth=auth)
-"""    consumer_key = "rSt4OtEK2lXGy2uA3MWMkL2Y0"
-    consumer_secret = "qqZJFwcXjJV0eidta7A7gbmzq5iOuiGLscv7QNklXkE1dirE9o"
-    access_token = "180294694-i7kFCQs6O8QBjL3MO1vyetThfmfRT57CgxbIcIaN"
-    access_token_secret = "aCsnQLzPLSRxslHY1deo7CaiHCko4VEZcHsErnmXmaBMO"
-"""
+
 
 
 def put_stream(es, twitter_stream,tweet_data):
